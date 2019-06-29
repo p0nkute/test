@@ -35,8 +35,10 @@
 				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="*" onclick='resuilt.value+=this.value'>*</td>
 			</tr>
 			<tr>
-				<td colspan="3"><button class="btn btn-outline-success" type="button" id="num" name="number" value="=" style="width: 130px !important;">=</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="=" onclick="resuilt.value=eval(resuilt.value)">=</td>
 				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="/" onclick='resuilt.value+=this.value'>/</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="C" onclick='resuilt.value=resuilt.value.substr(0,resuilt.value.length-1)'>C</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="AC" onclick='resuilt.value=resuilt.value.substr(0,resuilt.value.length-resuilt.value.length)'>AC</td>
 			</tr>
 		</tbody>
 	</table>
