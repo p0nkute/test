@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="cl.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<table>
+		<caption id="cap">calculator</caption>
+		<thead>
+			<tr>
+				<td colspan="5"><input type="text" id="resuilt"></td>
+			</tr>
+		</thead>
+		<tbody id="bod">
+			<tr>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="1" onclick='resuilt.value+=this.value'>1</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="2" onclick='resuilt.value+=this.value'>2</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="3" onclick='resuilt.value+=this.value'>3</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="+" onclick='resuilt.value+=this.value'>+</td>
+			<tr/>
+			<tr>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="4" onclick='resuilt.value+=this.value'>4</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="5" onclick='resuilt.value+=this.value'>5</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="6" onclick='resuilt.value+=this.value'>6</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="-" onclick='resuilt.value+=this.value'>-</td>
+			</tr>
+			<tr>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="7" onclick='resuilt.value+=this.value'>7</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="8" onclick='resuilt.value+=this.value'>8</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="9" onclick='resuilt.value+=this.value'>9</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="*" onclick='resuilt.value+=this.value'>*</td>
+			</tr>
+			<tr>
+				<td colspan="3"><button class="btn btn-outline-success" type="button" id="num" name="number" value="=" style="width: 130px !important;">=</td>
+				<td><button class="btn btn-outline-success" type="button" id="num" name="number" value="/" onclick='resuilt.value+=this.value'>/</td>
+			</tr>
+		</tbody>
+	</table>
+	<!--javascript-->
+			<script language="vn">
+				funcition resuilt() {
+					var t=document.getElementsByClassName('btn btn-outline-success');
+					document.write(t);
+				}
+				resuilt();
+			</script>
+</body>
+</html>
