@@ -1,0 +1,25 @@
+table {
+	background: black;
+	margin-top:30px;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.btn {
+	margin: 5px 5px;
+	font-size: 10px;
+}
+
+#cap {
+	position: absolute;
+	top:-10px;
+	left:633px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#bod {
+	margin-top:10px;
+}
